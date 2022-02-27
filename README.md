@@ -22,10 +22,10 @@ pip install Topsis_Shivang_101917183
 Usage
 
 ```sh
-import Topsis_Shivang_101917183 as topsis
+from Topsis_Shivang_101917183 import topsis
 
 #creating the topsis object
-t = topsis.topsis(INPUT_FILENAME,WEIGHT_STRING,IMPACT_STRING,OUTPUT_FILENAME)
+#t = topsis(INPUT_FILENAME,WEIGHT_STRING,IMPACT_STRING,OUTPUT_FILENAME)
 
 # Example
 t = tp.topsis("data.xlsx", "1,1,1,2,1", "+,-,-,+,-", "output.csv")
